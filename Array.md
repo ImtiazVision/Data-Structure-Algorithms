@@ -49,7 +49,7 @@ System.out.println("The Array has a length of " + length);
 2. **Description** : Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target.
 
   **Solution** :
-    ```
+```
     class Solution {
         public int[] twoSum(int[] nums, int target) {
             for (int i = 0; i < nums.length; i++) {
@@ -63,4 +63,4 @@ System.out.println("The Array has a length of " + length);
             return null;
         }
     }
-    ```
+```
