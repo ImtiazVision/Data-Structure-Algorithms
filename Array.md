@@ -22,7 +22,7 @@ System.out.println("The Array has a capacity of " + array.length);
 System.out.println("The Array has a length of " + length);
 ```
 
-**Description** : Find the max consecutive 1's in an array. In another words, find the longer contiguous segments of ones than zeros
+1. **Description** : Find the max consecutive 1's in an array. In another words, find the longer contiguous segments of ones than zeros
 
 **Solution** :
 ```
@@ -46,7 +46,7 @@ class Solution {
 }
 ```
 
-**Description** : Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target.
+2. **Description** : Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target.
 
 ```
 class Solution {
