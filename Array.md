@@ -25,42 +25,42 @@ System.out.println("The Array has a length of " + length);
 1. **Description** : Find the max consecutive 1's in an array. In another words, find the longer contiguous segments of ones than zeros
 
   **Solution** :
-```
-class Solution {
-  public int findMaxConsecutiveOnes(int[] nums) {
-    int count = 0;
-    int maxCount = 0;
-    for(int i = 0; i < nums.length; i++) {
-      if(nums[i] == 1) {
-        // Increment the count of 1's by one.
-        count += 1;
-      } else {
-        // Find the maximum till now.
-        maxCount = Math.max(maxCount, count);
-        // Reset count of 1.
-        count = 0;
+    ```
+    class Solution {
+      public int findMaxConsecutiveOnes(int[] nums) {
+        int count = 0;
+        int maxCount = 0;
+        for(int i = 0; i < nums.length; i++) {
+          if(nums[i] == 1) {
+            // Increment the count of 1's by one.
+            count += 1;
+          } else {
+            // Find the maximum till now.
+            maxCount = Math.max(maxCount, count);
+            // Reset count of 1.
+            count = 0;
+          }
+        }
+        return Math.max(maxCount, count);
       }
     }
-    return Math.max(maxCount, count);
-  }
-}
-```
+    ```
 
 2. **Description** : Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target.
 
   **Solution** :
-```
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[j] == target - nums[i]) {
-                    return new int[] { i, j };
+    ```
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] == target - nums[i]) {
+                        return new int[] { i, j };
+                    }
                 }
             }
+            // If there is no solution, we will just return null.
+            return null;
         }
-        // If there is no solution, we will just return null.
-        return null;
     }
-}
-```
+    ```
