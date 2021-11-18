@@ -65,4 +65,5 @@ System.out.println("The Array has a length of " + length);
     }
 ```
 
-**Hash Table** : A hash table allows for quick lookups in near constant time. It is helpful in situations where you need to look up a value in a large data set.
+**Hash Table** : A hash table is a data structure that stores key-value pairs. The key is used to look up the value. A hash table allows for quick lookups in near constant time. It is helpful in situations where you need to look up a value in a large data set.
+
