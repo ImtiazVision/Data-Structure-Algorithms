@@ -64,3 +64,5 @@ System.out.println("The Array has a length of " + length);
         }
     }
 ```
+
+A hash table allows for quick lookups in near constant time. It is helpful in situations where you need to look up a value in a large data set.
