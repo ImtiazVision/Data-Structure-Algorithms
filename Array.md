@@ -22,7 +22,9 @@ System.out.println("The Array has a capacity of " + array.length);
 System.out.println("The Array has a length of " + length);
 ```
 
-**Description**: Find the max consecutive 1's in an array.
+**Description** : Find the max consecutive 1's in an array.
+
+**Solution** :
 ```
 class Solution {
   public int findMaxConsecutiveOnes(int[] nums) {
