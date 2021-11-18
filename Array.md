@@ -24,7 +24,7 @@ System.out.println("The Array has a length of " + length);
 
 1. **Description** : Find the max consecutive 1's in an array. In another words, find the longer contiguous segments of ones than zeros
 
-**Solution** :
+  **Solution** :
 ```
 class Solution {
   public int findMaxConsecutiveOnes(int[] nums) {
@@ -48,6 +48,7 @@ class Solution {
 
 2. **Description** : Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target.
 
+  **Solution** :
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
