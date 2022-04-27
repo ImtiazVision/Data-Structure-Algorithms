@@ -1,4 +1,17 @@
+"""
+Binary search is a basic method that compares the target value to the array's middle member.
 
+If the goal value equals the center element, we're done.
+
+
+
+If the goal value is lower, continue to search on the left.
+
+
+
+If the goal value is higher, continue searching on the right.
+
+"""
 
 
 class Solution:
